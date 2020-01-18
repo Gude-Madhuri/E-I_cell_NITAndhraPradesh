@@ -4,11 +4,40 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
         <style>
+            .icons a:hover {
+                color: #bbbbbb;
+            }
+
+            .icons a{
+                text-decoration: none;
+                font-size: 28px;
+                color: #29a8ab;
+                padding-left: 8px;
+            }
+
+            .icons{
+                padding-top: 24px;
+            }
+            .footer{
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: #3f3f3f;
+              padding-top: 20px;
+              padding-left: 180px;
+              padding-bottom: 20px;
+            }
+            hr{
+               border-top : 1px solid #29a8ab;
+            }
             .fixed-img{
                 background-image: url("fixedImg.jfif");
 
@@ -84,6 +113,33 @@
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
     
+        <div class = "footer">
+            <div class="grid-container">
+
+              <div>
+                <img src="eandilogo.png" alt="Ecell Logo" height="280px" width="280px" style="border-radius: 20px;">
+              </div>
+
+              <div style="color:#bbbbbb; width:450px;">
+                  <h4 style="color:#29a8ab;"><u>CONTACT US:</u></h4><br>
+                  SAI TEJA  +91 384387438<hr>
+                  Email : <a href="mailto:dummy@gmail.com" style="color:#f02961;">dummy@gmail.com</a><hr>
+                  Address :  Chennai - Srikakulam Highway Near Kondruprolu,<pre style="color:#bbbbbb; font-size:15px;">
+        Tadepalligudem,
+        Andhra Pradesh 534101</pre>
+              </div>
+
+              <div  class="icons">
+                <a href="#"><i class="fa fa-linkedin"></i></a><br>
+                <a href="#"><i class="fa fa-facebook"></i></a><br>
+                <a href="#"><i class="fa fa-envelope"></i></a><br>
+                <a href="#"><i class="fa fa-instagram"></i></a><br>
+                <a href="#"><i class="fa fa-twitter"></i></a><br>
+              </div>
+
+            </div>
+        </div>
+        
         <script>
             window.onscroll = function() {fixNav()};
 
